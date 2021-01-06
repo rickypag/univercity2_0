@@ -43,6 +43,9 @@
     </li>
     <li>
       <a href="#use-cases">Use Cases</a>
+    </li>
+    <li>
+      <a href="#use-cases">Use Cases</a>
       <ul>
         <li><a href="#student-wants-to-upload-their-document">Student wants to upload their document</a></li>
       </ul>
@@ -71,10 +74,35 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+## Personas
+
+### University students
+
+#### Giovanni
+
+Giovanni is a working student who rarely goes to lectures because he works most of the time and the working hours don't fit very well with university times.
+Nonetheless he is determined to complete his degree and studies and asks notes of the lecture to his colleagues or search the relative information on the internet.
+Unfortunately, since he seldom goes to university, he barely knows fellow students and the information he acquires from the Whatsapp and Telegram groups are none or insignificant. Moreover, the exam he needs to pass is very well taught by the professor and studying from books and other material from the web is useless and not pertinent with the content of the lecture.
+Therefore, he goes to univercity.it and starts looking for the notes and material that he really needs. Here he easily finds notes that were uploaded by other (former or current) students and that were taken during the lectures he missed. Studying from this notes will be like he never missed a single lecture!
+
+#### Laura
+
+Laura is an excellent student who always scored the maximum in all the tests and never missed a single lecture. Her strength is that she easily understands what the professor explains without an extreme effort of studying from external sources. Nonetheless she enjoys enanching her knowledge by studying even extra material not included in the actual exam. Unfortunately one day she gets sick and she is forced to miss a lecture. Of course she desperately wants to know what happened when she missed.
+Therefore she navigate to univercity.it. She searches for the the professor and subject she missed. Fortunately another student from the same course took a very well note of that lecture the year before and uploaded it on the website. She can now studies the missing part from this notes.
+While she is searching for the missing part, she also bumps into another document about the same subject but written by another student of another university. She notices that this document contains more information about that subject. She is happy because she has learnt something that she wouldn't had in the normal lecture.
+
+#### Alberto
+
+Alberto is a good student who enjoys staying at the university and likes helping people with the study. He takes very good notes during lectures and for this reason his fellow students often ask him if they can borrow his notes when they didn't understand a particular part in the lecture.
+Therefore he has an idea. He opens a folder in google drive where he uploads all his notes and everyone can easily access them. Unfortunately this method reveals itself to be very chaotic. The documents don't have any structure and sometimes one of the other students accidentally deletes one from the drive.
+Therefore he goes to university.it and uploads all his notes. Now the notes can be easily accessed by everyone. Morevover he recieves many positive feedbacks from other users which give him a greater sense of being helpful.
+
 
 ## Use Cases
 
 ### Student wants to upload their document
+
+
 
 ### Student wants to search for documents
 
