@@ -116,12 +116,18 @@ Therefore he goes to university.it and uploads all his notes. Now the notes can 
 
 
 ### Prerequisites
+There are some requirements to respect.
 
+1. NodeJS:
+   Downlaod and install latest version of NodeJS <a href="https://nodejs.org/it/download/">here</a> for your system.
+2. With npm run "npm install -g @angular/cli"
 
 ### Installation
+To install and test this project:
 
-
-
+1. Clone this repository and navigate to "/project/univercity2_0"
+2. Run "ng serve". This command will launch in your system a localhost test environment
+3. Type in your browser "localhost:4200"
 
 <!-- USAGE EXAMPLES -->
 ## Usage
