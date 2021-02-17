@@ -128,6 +128,7 @@ To install and test this project:
 1. Clone this repository and navigate to "/project/univercity2_0"
 2. Run "ng serve". This command will launch in your system a localhost test environment
 3. Type in your browser "localhost:4200"
+4. Enjoy!
 
 <!-- USAGE EXAMPLES -->
 ## Usage
