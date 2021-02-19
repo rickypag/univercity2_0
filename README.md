@@ -119,7 +119,7 @@ Therefore he goes to university.it and uploads all his notes. Now the notes can 
 There are some requirements to respect.
 
 1. NodeJS:
-   Downlaod and install latest version of NodeJS <a href="https://nodejs.org/it/download/">here</a> for your system.
+   Download and install latest version of NodeJS <a href="https://nodejs.org/it/download/">here</a> for your system.
 2. With npm run "npm install -g @angular/cli"
 
 ### Installation
@@ -132,6 +132,13 @@ To install and test this project:
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+
+
+
+
+<!-- DOCUMENTATION FOR API -->
+## API Documentation
+[Here](https://app.swaggerhub.com/apis/univercitydev/DocAPIUniverCityOPEN/1.0.0) can be found the documentation of the API. These API are under development and may change in the course of the work.
 
 
 
