@@ -1,0 +1,13 @@
+{
+    "name": "univercity-dev-backend",
+    "version": "0.0.1",
+    "description": "univercity backend on docker",
+    "author": "UniveCity DevOps team",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
