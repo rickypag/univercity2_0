@@ -1,5 +1,13 @@
 const express = require('express');
 
+const handleErrorAsync = func => async (req, res, next) => {
+    try {
+        await func(req, res, next);
+    } catch (error) {
+        next(error);
+    }
+};
+
 /**
  * upload a file
  * By inserting the metadata of the document (title, class, etc..) you can upload a file into the platform 
@@ -11,9 +19,7 @@ const express = require('express');
  * no response value expected for this operation
  **/
 const router = express.Router();
-router.post('/documents', (req, res)=>{
-    return res.status(501).send('not implemented');
-})
+router.post('/documents', handleErrorAsync(documents_controller.upload_pdf_file))
 
 /**
  * download the document id
@@ -22,10 +28,7 @@ router.post('/documents', (req, res)=>{
  * id String id of the document that are going to be downloaded
  * no response value expected for this operation
  **/
-router.get('/documents/:id', (req, res) => {
-    var id = req.param('id');
-    return res.status(501).send('not implemented');
-})
+router.get('/documents/:id', handleErrorAsync(documents_controller.download_pdf_file))
 
 /**
  * retrive the document metadata
@@ -34,10 +37,7 @@ router.get('/documents/:id', (req, res) => {
  * id String id of the selected document for metadata
  * returns DocumentMetadata
  **/
-router.get('/documents/:id/meta', (req, res) => {
-    var id = req.param('id');
-    return res.status(501).send('not implemented');
-})
+router.get('/documents/:id/meta', handleErrorAsync(documents_controller.metadata_of_pdf_file))
 
 /**
  * retrive document that are linked to the search query
@@ -46,13 +46,7 @@ router.get('/documents/:id/meta', (req, res) => {
  * search Query  (optional)
  * returns QueryResponse
  **/
-router.get('/documents', (req, res) => {
-    if (!req.query.search){
-        return res.status(400).send('Bad Request');
-    }
-    var searchString = req.query.search;
-    return res.status(501).send('not implemented');
-})
+router.get('/documents', handleErrorAsync(documents_controller.query_pdf_file))
 
 /**
  * delete a document
@@ -61,9 +55,6 @@ router.get('/documents', (req, res) => {
  * id String id of the document that are going to be deleted
  * no response value expected for this operation
  **/
-router.delete('/documents/:id', (req, res) => {
-    var id = req.param('id');
-    return res.status(501).send('not implemented');
-})
+router.delete('/documents/:id', handleErrorAsync(documents_controller.delete_pdf_file))
 
 module.exports = router;
