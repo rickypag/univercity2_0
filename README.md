@@ -126,9 +126,15 @@ There are some requirements to respect.
 To install and test this project:
 
 1. Clone this repository and navigate to "/project/univercity2_0"
-2. Run "ng serve". This command will launch in your system a localhost test environment
-3. Type in your browser "localhost:4200"
-4. Enjoy!
+2. Run "npm run start". This command will launch in your system a localhost test environment
+3. Create file docker-backend-dev/backend.env
+
+| key                  | example                                                                              |
+| -------------------- | ------------------------------------------------------------------------------------ |
+| PORT                 | 8080                                                                                 |
+
+4. Type in your browser "localhost:8080"  (or any port you specified at point 3.)
+5. Enjoy!
 
 <!-- USAGE EXAMPLES -->
 ## Usage

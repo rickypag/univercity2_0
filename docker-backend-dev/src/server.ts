@@ -1,16 +1,15 @@
-const express = require('express');
-const app = express();
+import { App } from "./app"
+import { Config } from "./config"
 
-// Constants
-const PORT = 8080;
-const HOST = '0.0.0.0';
+const main = async () => {
+	const config = Config()
+	const app = App(config)
+	await app.start()
+}
 
+main()
 
-// App
-const documentRouter = require('./routes/documents.js');
-
-app.use(documentRouter);
-
+/*
 // development error handler
 // will print stacktrace
 if (app.get('env') === 'development') {
@@ -33,7 +32,4 @@ else{
         });
     });
 }
-
-
-app.listen(PORT, HOST);
-console.log(`Running on http://${HOST}:${PORT}`);
+*/
