@@ -1,0 +1,189 @@
+<!--<div class="loader-bg" *ngIf="loading">
+  <div class="lds-facebook loader-position"><div></div><div></div><div></div></div>
+</div>-->
+<div class="wrapper" id="cont" style="z-index: 1;position: absolute">
+
+  <!-- Sidebar  -->
+  <nav id="sidebar" class="nav-mobile">
+
+    <div class="sidebar-header">
+      <h3>Univercity_dbg<a href="javascript:void(0)" class="btn-bg btn close-btn float-right d-block d-sm-none">&times;</a></h3>
+    </div>
+
+    <ul class="list-unstyled components">
+
+      <li class="mt-3 pr-4 pl-4 pb-2" (click)="navigate('home')">
+        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+      </li>
+
+      <li class="mt-3" (click)="navigate('home')">
+        <a  class="d-inline align-content-center"> Home <i class='bx bx-sm bxs-shield-alt-2 float-right mr-2' style="color:#FF4800"></i></a>
+      </li>
+
+    </ul>
+
+  </nav>
+
+  <!-- Page Content  -->
+  <div class="content">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarSupportedContent">
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="row">
+      <div class="col-3">
+        <div class="card rounded-corner text-center">
+          <div>
+            <img src="assets/document.png" class="card-img-top mt-2" alt="..." style="max-width: 60%">
+          </div>
+          <div class="card-body text-start" style="text-align: left!important">
+            <h5 class="card-title header-color"> Scheda di test per documento</h5>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Nome File: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Autore: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Materia: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Facoltà: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Dimensioni: Test</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card rounded-corner text-center">
+          <div>
+            <img src="assets/document.png" class="card-img-top mt-2" alt="..." style="max-width: 60%">
+          </div>
+          <div class="card-body text-start" style="text-align: left!important">
+            <h5 class="card-title header-color"> Scheda di test per documento</h5>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Nome File: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Autore: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Materia: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Facoltà: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Dimensioni: Test</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card rounded-corner text-center">
+          <div>
+            <img src="assets/document.png" class="card-img-top mt-2" alt="..." style="max-width: 60%">
+          </div>
+          <div class="card-body text-start" style="text-align: left!important">
+            <h5 class="card-title header-color"> Scheda di test per documento</h5>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Nome File: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Autore: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Materia: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Facoltà: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Dimensioni: Test</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card rounded-corner text-center">
+          <div>
+            <img src="assets/document.png" class="card-img-top mt-2" alt="..." style="max-width: 60%">
+          </div>
+          <div class="card-body text-start" style="text-align: left!important">
+            <h5 class="card-title header-color"> Scheda di test per documento</h5>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Nome File: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Autore: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Materia: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Facoltà: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Dimensioni: Test</p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row mt-4">
+      <div class="col-3">
+        <div class="card rounded-corner text-center">
+          <div>
+            <img src="assets/document.png" class="card-img-top mt-2" alt="..." style="max-width: 60%">
+          </div>
+          <div class="card-body text-start" style="text-align: left!important">
+            <h5 class="card-title header-color"> Scheda di test per documento</h5>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Nome File: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Autore: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Materia: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Facoltà: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Dimensioni: Test</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card rounded-corner text-center">
+          <div>
+            <img src="assets/document.png" class="card-img-top mt-2" alt="..." style="max-width: 60%">
+          </div>
+          <div class="card-body text-start" style="text-align: left!important">
+            <h5 class="card-title header-color"> Scheda di test per documento</h5>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Nome File: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Autore: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Materia: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Facoltà: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Dimensioni: Test</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card rounded-corner text-center">
+          <div>
+            <img src="assets/document.png" class="card-img-top mt-2" alt="..." style="max-width: 60%">
+          </div>
+          <div class="card-body text-start" style="text-align: left!important">
+            <h5 class="card-title header-color"> Scheda di test per documento</h5>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Nome File: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Autore: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Materia: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Facoltà: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Dimensioni: Test</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card rounded-corner text-center">
+          <div>
+            <img src="assets/document.png" class="card-img-top mt-2" alt="..." style="max-width: 60%">
+          </div>
+          <div class="card-body text-start" style="text-align: left!important">
+            <h5 class="card-title header-color"> Scheda di test per documento</h5>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Nome File: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Autore: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Materia: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Facoltà: Test</p>
+            <p class="card-text" style="font-size: small;margin-bottom: 0.2rem">Dimensioni: Test</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+</div>
